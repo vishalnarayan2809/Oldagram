@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Sans 3", sans-serif;;
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid #C6C6C6;
+    min-width: 375px;
+
+}
+
+#logo {
+    width: 150px;
+    height: 80px;
+}
+
+#profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-user {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+
+.post-header {
+    width: 100%;
+    background-color: rgb(241, 240, 240);
+    display: flex;
+    align-items: center;
+
+}
+
+.post-user-info{
+    font-size: 16px;
+    margin: 0;
+}
+
+.post-icon {
+    width: 30px;
+    height: 30px;
+    margin: 15px 15px 0  0;
+}
+.post-stats {
+    padding: 10px 20px;
+}
+
+.post-stats p {
+    margin: 0px 2px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.comment{
+ 
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.comment-user {
+   margin: 0;
+   margin-left: 15px;
+   font-size: 14px;
+   padding: 0px 10px;
+
+}
+.comment-text {
+    font-size: 14px;
+    margin: 0;
+}
+.post-list {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid #C6C6C6;
+}
